@@ -39,7 +39,7 @@ export default function Footer2() {
           <SwiperSlide>
             <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center gap-4 hover:scale-105 transition duration-300">
               <img
-                src="Foto Formal_Wisuda_Gibran.jpg"
+                src="masmus.jpeg"
                 className="w-24 h-24 rounded-full object-cover"
               />
               <h1 className="text-lg font-semibold text-black">
