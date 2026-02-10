@@ -27,7 +27,7 @@ export default function Hero() {
   animate-gradient
   "
           >
-            Mulai Karier Dengan Front End Developer Dari Nol
+            Mulai Karier Dengan Front End Developer Dari dua
           </h1>
 
           <p className="text-lg md:text-2xl max-w-xl md:max-w-3xl text-black my-3 md:my-5 font-sans">
