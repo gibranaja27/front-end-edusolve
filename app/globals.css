@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-poppins);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,3 +28,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth; 
+}
+
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+
+  .animate-gradient {
+    animation: gradientMove 4s linear infinite;
+  }
+}
+
+
