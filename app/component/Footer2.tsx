@@ -12,10 +12,10 @@ export default function Footer2() {
     <section className="bg-purple-200 py-16">
       {/* Header */}
       <div className="flex flex-col gap-6 items-center justify-center mx-5 text-center">
-        <h1 className="text-4xl md:text-5xl font-semibold text-black">
+        <h1 className="text-3xl md:text-3xl font-semibold text-black">
           Testimoni
         </h1>
-        <p className="text-lg md:text-2xl text-black max-w-2xl">
+        <p className="text-lg md:text-xl text-black max-w-2xl">
           Beberapa tanggapan yang didapatkan setelah mengikuti program kelas
           online ini
         </p>

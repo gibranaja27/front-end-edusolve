@@ -9,7 +9,7 @@ export default function Hero() {
           <img
             src="undraw_online-learning_tgmv-removebg-preview.png"
             alt="Hero Image"
-            className="w-64 md:w-auto"
+            className="w-64 h-64 md:w-auto"
           />
         </div>
 
@@ -17,20 +17,20 @@ export default function Hero() {
         <div className="flex flex-col gap-4 text-center md:text-left items-center md:items-start">
           <h1
             className="
-  text-3xl md:text-5xl 
-  max-w-xl md:max-w-3xl 
-  leading-snug md:leading-normal 
-  font-bold font-sans 
+  text-xl md:text-3xl
+  max-w-xl md:max-w-3xl
+  leading-snug md:leading-tight
+  font-bold font-sans
   bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
   bg-[length:200%_auto] 
   bg-clip-text text-transparent 
   animate-gradient
   "
           >
-            Mulai Karier Dengan Front End Developer Dari dua
+            Mulai Karier Dengan Front End <br /> Developer Dari Nol
           </h1>
 
-          <p className="text-lg md:text-2xl max-w-xl md:max-w-3xl text-black my-3 md:my-5 font-sans">
+          <p className="text-lg md:text-2xl max-w-xl md:max-w-2xl text-black my-3 md:my-5 font-sans">
             Pelajari HTML, CSS, Tailwind, dan JavaScript melalui kelas online
             yang terstruktur dan mudah dipahami.
           </p>
@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="flex md:flex">
             <Link
               href="/register"
-              className="bg-purple-700 text-white px-8 md:px-9 py-3 md:py-2 rounded-md text-lg md:text-xl shadow-lg hover:bg-purple-600 font-sans"
+              className="bg-purple-700 text-white rounded-md text-sm shadow-lg font-sans px-5 py-2 hover:bg-purple-600"
             >
               Daftar Sekarang
             </Link>

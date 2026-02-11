@@ -6,17 +6,17 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white shadow-xl rounded-b-2xl">
-      <div className="mx-auto px-4 md:px-10 py-5 flex items-center justify-between">
+    <nav className="fixed top-0 w-full z-50 bg-white shadow-xl rounded-b-xl">
+      <div className="mx-auto px-2 md:px-5 py-3 flex items-center justify-between">
         {/* Logo */}
         <img
           src="logo edusolve.png"
           alt="logo"
-          className="w-24 md:w-36"
+          className="w-24 md:w-24"
         />
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-20 text-purple-700 font-semibold text-lg">
+        <ul className="hidden md:flex gap-20 text-purple-700 font-semibold text-sm">
           <li>
             <Link
               href="#"
@@ -52,16 +52,16 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop Button */}
-        <div className="hidden md:flex gap-4">
+        <div className="hidden md:flex flex-row gap-4">
           <Link
             href="/login"
-            className="bg-purple-700 text-white px-9 py-2 rounded-md text-md shadow-lg font-sans hover:bg-purple-600"
+            className="bg-purple-700 text-white rounded-md text-sm shadow-lg font-sans px-5 py-2 hover:bg-purple-600"
           >
             Masuk
           </Link>
           <Link
             href="/register"
-            className="bg-white text-purple-700 border border-purple-700 px-9 py-2 rounded-md text-md shadow-lg font-sans hover:border-purple-500 hover:text-purple-500"
+            className="bg-white text-purple-700 border border-purple-700 px-5 py-2 rounded-md text-sm shadow-lg font-sans hover:border-purple-500 hover:text-purple-500"
           >
             Daftar
           </Link>
@@ -70,7 +70,7 @@ export default function Navbar() {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-4xl text-purple-700"
+          className="md:hidden text-3xl text-purple-700"
         >
           ☰
         </button>
