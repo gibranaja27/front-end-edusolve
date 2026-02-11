@@ -46,7 +46,7 @@ export default function Navbar() {
               href="#"
               className="rounded-2xl border border-white px-5 py-3 font-sans hover:text-purple-600 hover:border-purple-700"
             >
-              Kontak
+              Contact
             </Link>
           </li>
         </ul>
